@@ -40,8 +40,9 @@
 ||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.41
 
 ### PayPal ###
-||*.paypalobjects.com^$dnsrewrite=paypal.map.fastly.net
+||paypal.com^$dnsrewrite=paypal-dynamic.map.fastly.net
+||paypalobjects.com^$dnsrewrite=paypal.map.fastly.net
 
 ### Twitter ###
 ||pbs.twimg.com^$dnsrewrite=dualstack.twimg.twitter.map.fastly.net
-||pbs.twimg.com^$dnsrewrite=dualstack.video.twitter.map.fastly.net
+||video.twimg.com^$dnsrewrite=dualstack.video.twitter.map.fastly.net
