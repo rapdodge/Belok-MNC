@@ -1,0 +1,47 @@
+### BStation ###
+||upos-sz-mirrorcdsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+||upos-sz-mirroralibstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+||upos-sz-mirrorhwbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+||upos-sz-mirrorgcsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+||upos-sz-mirrorcosbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+||upos-bstar1-mirrorakam.akamaized.net^$dnsrewrite=a1893.dscw10.akamai.net
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.4
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.5
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.6
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.7
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.8
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.9
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.10
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.11
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.12
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.14
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.15
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.16
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.17
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.18
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.19
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.20
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.21
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.22
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.23
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.24
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.25
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.26
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.27
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.28
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.31
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.32
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.33
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.34
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.35
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.36
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.37
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.40
+||a1893.dscw10.akamai.net^$dnsrewrite=110.50.80.41
+
+### PayPal ###
+||*.paypalobjects.com^$dnsrewrite=paypal.map.fastly.net
+
+### Twitter ###
+||pbs.twimg.com^$dnsrewrite=dualstack.twimg.twitter.map.fastly.net
+||pbs.twimg.com^$dnsrewrite=dualstack.video.twitter.map.fastly.net
