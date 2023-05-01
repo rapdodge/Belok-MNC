@@ -1,5 +1,5 @@
 # Belok-MNC
-Isinya buat belokin DNS biar hit cache MNC :)
+Isinya buat belokin DNS biar hit cache MNC dan ada beberapa biar lebih maksimal lagi :)
 
 Sesuai about, jadinya ini tuh support buat AdGuardHome ya :D
 
