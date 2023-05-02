@@ -22,8 +22,10 @@ Tanpa status: 33,41,193,196-203
 
 Unreachable: 1-32,35-40,43-192,194-195,212-245,254
 
+<hr>
+
 Netflix (?): 34,42
 
-gvs 1.0 (Google Video Service?): 204-211
-
 Google Edge Cache: 246-253
+
+gvs 1.0 (Google Video Service?): 204-211
