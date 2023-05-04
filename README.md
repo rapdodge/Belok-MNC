@@ -13,4 +13,8 @@ Masukkan link [ini](https://github.com/rapdodge/Belok-MNC/raw/main/rules)
 
 <hr>
 
+Gunakan [smartdns](https://github.com/pymumu/smartdns) agar hasil lebih maksimal.
+
+<hr
+
 Gunakan dengan perhatian khusus. Masih tahap riset. Tidak menanggung akibat seperti router meledak, internet menjadi LOS, alarm tidak mati, ledakan nuklir, dll
