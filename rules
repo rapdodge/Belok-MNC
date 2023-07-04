@@ -1,9 +1,13 @@
 ### BStation ###
-||upos-sz-mirrorcdsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
 ||upos-sz-mirroralibstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
-||upos-sz-mirrorhwbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
-||upos-sz-mirrorgcsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+||upos-sz-mirrorcdsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
 ||upos-sz-mirrorcosbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+||upos-sz-mirrorgcsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+||upos-sz-mirrorhwbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+
+### HoYoverse ###
+||autopatchhk.yuanshen.com^$dnsrewrite=autopatchhk.yuanshen.com.akamaized.net
+||autopatchos.starrails.com^$dnsrewrite=autopatchos.starrails.com.akamaized.net
 
 ### PayPal ###
 ||paypal.com^$dnsrewrite=paypal-dynamic.map.fastly.net
