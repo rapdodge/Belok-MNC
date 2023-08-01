@@ -1,3 +1,7 @@
+### Akamai ###
+||akamaized.net^$dnstype=AAAA,dnsrewrite=NOERROR
+||akamaihd.net^$dnstype=AAAA,dnsrewrite=NOERROR
+
 ### BStation ###
 ||upos-sz-mirroralibstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
 ||upos-sz-mirrorcdsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
