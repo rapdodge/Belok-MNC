@@ -15,6 +15,14 @@ Masukkan link [ini](https://github.com/rapdodge/Belok-MNC/raw/main/rules)
 
 Gunakan [smartdns](https://github.com/pymumu/smartdns) agar hasil lebih maksimal.
 
-<hr
+<hr>
+
+Buka [issue](https://github.com/rapdodge/Belok-MNC/issues) kalo misalkan mau request apa yang sekiranya harus ditambahin :D
+
+<hr>
+
+<h2>Ayo ikut gerakan IPv6 dengan gabung komunitas kecil di Telegram: https://t.me/IPv6_Indonesia</h2>
+
+<hr>
 
 Gunakan dengan perhatian khusus. Masih tahap riset. Tidak menanggung akibat seperti router meledak, internet menjadi LOS, alarm tidak mati, ledakan nuklir, dll
