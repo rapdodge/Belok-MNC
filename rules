@@ -18,5 +18,7 @@
 ||paypalobjects.com^$dnsrewrite=paypal.map.fastly.net
 
 ### Twitter ###
-||pbs.twimg.com^$dnsrewrite=dualstack.twimg.twitter.map.fastly.net
-||video.twimg.com^$dnsrewrite=dualstack.video.twitter.map.fastly.net
+#||pbs.twimg.com^$dnsrewrite=dualstack.twimg.twitter.map.fastly.net
+||pbs.twimg.com^$dnsrewrite=cs196.wac.edgecastcdn.net
+#||video.twimg.com^$dnsrewrite=dualstack.video.twitter.map.fastly.net
+||video.twimg.com^$dnsrewrite=cs296.wpc.edgecastcdn.net
