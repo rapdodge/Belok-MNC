@@ -9,6 +9,9 @@
 ||upos-sz-mirrorgcsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
 ||upos-sz-mirrorhwbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
 
+### Google Video (YouTube) ###
+||googlevideo.com^$dnstype=AAAA,dnsrewrite=NOERROR
+
 ### HoYoverse ###
 ||autopatchhk.yuanshen.com^$dnsrewrite=autopatchhk.yuanshen.com.akamaized.net
 ||autopatchos.starrails.com^$dnsrewrite=autopatchos.starrails.com.akamaized.net
