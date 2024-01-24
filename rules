@@ -3,11 +3,15 @@
 ||akamaihd.net^$dnstype=AAAA,dnsrewrite=NOERROR
 
 ### BStation ###
-||upos-sz-mirroralibstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
-||upos-sz-mirrorcdsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
-||upos-sz-mirrorcosbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
-||upos-sz-mirrorgcsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
-||upos-sz-mirrorhwbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+/upos\-([s,h])z\-mirror([a-z0-9]+?).bilivideo\.com/$dnsrewrite=upos-hz-mirrorakam.akamaized.net
+/upos\-([s,h])z\-mirror([a-z0-9]+?).bilivideo\.com/$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+
+### BStation Old ###
+#||upos-sz-mirroralibstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+#||upos-sz-mirrorcdsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+#||upos-sz-mirrorcosbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+#||upos-sz-mirrorgcsbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+#||upos-sz-mirrorhwbstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
 
 ### Google Video (YouTube) ###
 ||googlevideo.com^$dnstype=AAAA,dnsrewrite=NOERROR
@@ -25,3 +29,6 @@
 ||pbs.twimg.com^$dnsrewrite=cs196.wac.edgecastcdn.net
 #||video.twimg.com^$dnsrewrite=dualstack.video.twitter.map.fastly.net
 ||video.twimg.com^$dnsrewrite=cs296.wpc.edgecastcdn.net
+
+### Reddit ###
+||reddit.com^$dnsrewrite=dualstack.reddit.map.fastly.net
