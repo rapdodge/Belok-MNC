@@ -1,3 +1,22 @@
+### Blok Prefix Cache: 103.162.236.0/24
+
+<hr>
+
+<details>
+    <summary>proxygen-bolt (Facebook?)</summary>
+    <!-- have to be followed by an empty line! -->
+    103.162.236.82
+    103.162.236.84
+    103.162.236.85
+    103.162.236.94
+    103.162.236.95
+    103.162.236.97
+    103.162.236.98
+    103.162.236.99
+    103.162.236.106
+    103.162.236.107
+</details>
+
 ### Blok Prefix Cache: 103.163.6.0/24
 
 <hr>
