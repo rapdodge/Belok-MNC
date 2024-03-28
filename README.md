@@ -20,6 +20,12 @@ Gunakan [smartdns](https://github.com/pymumu/smartdns) agar hasil lebih maksimal
 Buka [issue](https://github.com/rapdodge/Belok-MNC/issues) kalo misalkan mau request apa yang sekiranya harus ditambahin :D
 
 <hr>
+<h3>Donasi</h3>
+<details>
+  <summary>Donasi dengan QRIS</summary>
+  <img src="https://github.com/rapdodge/Belok-MNC/raw/main/.github/QRIS.jpg" style="width:50%;height:50%;">
+</details>
+<hr>
 
 <h2>Ayo ikut gerakan IPv6 dengan gabung komunitas kecil di Telegram: https://t.me/IPv6_Indonesia</h2>
 
