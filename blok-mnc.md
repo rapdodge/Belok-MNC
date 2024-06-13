@@ -5,7 +5,9 @@
 <details>
     <summary>proxygen-bolt (Facebook?)</summary>
     <!-- have to be followed by an empty line! -->
+    
     103.162.236.82
+    103.162.236.83
     103.162.236.84
     103.162.236.85
     103.162.236.94
@@ -24,6 +26,7 @@
 <details>
     <summary>AkamaiGHost</summary>
     <!-- have to be followed by an empty line! -->
+
     103.163.6.36
     103.163.6.37
     103.163.6.38
@@ -45,7 +48,9 @@
 <details>
     <summary>proxygen-bolt (Facebook?)</summary>
     <!-- have to be followed by an empty line! -->
+
     103.163.6.82
+    103.163.6.83
     103.163.6.84
     103.163.6.85
     103.163.6.94
@@ -64,6 +69,7 @@
 <details>
     <summary>AkamaiGHost</summary>
     <!-- have to be followed by an empty line! -->
+
     110.50.80.4
     110.50.80.5
     110.50.80.6
@@ -104,6 +110,8 @@
     110.50.80.41
     110.50.80.42
     110.50.80.43
+    110.50.80.44
+    110.50.80.45
     110.50.80.46
     110.50.80.47
     110.50.80.48
@@ -123,10 +131,20 @@
 <details>
     <summary>gvs 1.0 (Google Video Service?)</summary>
     <!-- have to be followed by an empty line! -->
+
     110.50.80.76
     110.50.80.77
     110.50.80.78
     110.50.80.126
+    110.50.80.140
+    110.50.80.141
+    110.50.80.142
+    110.50.80.143
+    110.50.80.144
+    110.50.80.145
+    110.50.80.146
+    110.50.80.147
+    110.50.80.190
     110.50.80.204
     110.50.80.205
     110.50.80.206
@@ -137,9 +155,7 @@
 <details>
     <summary>Google Edge Cache</summary>
     <!-- have to be followed by an empty line! -->
-    110.50.80.123
-    110.50.80.124
-    110.50.80.125
+
     110.50.80.250
     110.50.80.251
     110.50.80.252
@@ -153,6 +169,7 @@
 <details>
     <summary>nginx (Netflix?)</summary>
     <!-- have to be followed by an empty line! -->
+    
     110.50.81.34
     110.50.81.42
 </details>
@@ -160,6 +177,7 @@
 <details>
     <summary>gvs 1.0 (Google Video Service?)</summary>
     <!-- have to be followed by an empty line! -->
+    
     110.50.81.204
     110.50.81.205
     110.50.81.206
@@ -168,17 +186,4 @@
     110.50.81.209
     110.50.81.210
     110.50.81.211
-</details>
-
-<details>
-    <summary>Google Edge Cache</summary>
-    <!-- have to be followed by an empty line! -->
-    110.50.81.246
-    110.50.81.247
-    110.50.81.248
-    110.50.81.249
-    110.50.81.250
-    110.50.81.251
-    110.50.81.252
-    110.50.81.253
 </details>
