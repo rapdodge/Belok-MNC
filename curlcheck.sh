@@ -12,7 +12,9 @@ fi
 # Membaca setiap baris pada file
 while read line; do
   # Melakukan curl pada URL yang ada pada baris
-  server=$(curl -sSf --connect-timeout 1 -I "http://$IP" 2>/dev/null | awk -F ': ' 'tolower($1) == "server" { print $2 }')
+  serveri=$(curl -sSf --connect-timeout 3 -I "http://$line" 2>/dev/null | awk -F ': ' 'tolower($1) == "server" { print $2 }')
+  servers=$(curl -k -sSf --connect-timeout 3 -I "https://$line" 2>/dev/null | awk -F ': ' 'tolower($1) == "server" { print $2 }')
   echo $line
-  echo $server
+  echo $serveri
+  echo $servers
 done < $file_name
