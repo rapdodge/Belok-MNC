@@ -1,6 +1,6 @@
-# Subdomain Google Video
+# Subdomain Google Video Services
 
-### IOH
+### IOH (AS4761)
 
 <hr>
 
@@ -50,7 +50,7 @@
     rr8.sn-poqvn5u-jb3y.googlevideo.com. 114.10.0.115
 </details>
 
-### MNC
+### MNC (AS17670)
 
 <hr>
 
