@@ -91,3 +91,20 @@
     rr8.sn-2a5thxqp5-jb3s.googlevideo.com. 110.50.80.147
     rr8.sn-2a5thxqp5-jb3z.googlevideo.com. 110.50.80.83
 </details>
+
+### Cara Generate
+
+<hr>
+
+<details>
+    <summary>List</summary>
+    <!-- have to be followed by an empty line! -->
+
+    for x in {0..9}; do
+      for y in {0..9} {a..z}; do
+        echo "rr${x}---sn-poqvn5u-jb3${y}.googlevideo.com";
+      done;
+    done
+</details>
+
+`sn-poqvn5u-jb3` bisa diganti dengan yang lain, contoh `sn-2a5thxqp5-jb3`
