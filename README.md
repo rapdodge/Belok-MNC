@@ -1,4 +1,11 @@
 # Belok-MNC
+
+### Perhatian
+
+Repositori ini ditujukan khusus untuk pelanggan MNC Play (AS17670). Segala bentuk penggunaan di luar MNC Play (AS17670), harus siap menerima konsekuensinya, seperti situs/download gagal dilakukan, dll.
+
+<hr>
+
 Isinya buat belokin DNS biar hit cache MNC dan ada beberapa biar lebih maksimal lagi :)
 
 Sesuai about, jadinya ini tuh support buat AdGuardHome ya :D
@@ -20,15 +27,24 @@ Gunakan [smartdns](https://github.com/pymumu/smartdns) agar hasil lebih maksimal
 Buka [issue](https://github.com/rapdodge/Belok-MNC/issues) kalo misalkan mau request apa yang sekiranya harus ditambahin :D
 
 <hr>
+
 <h3>Donasi</h3>
 <details>
   <summary>Donasi dengan QRIS</summary>
   <img src="https://github.com/rapdodge/Belok-MNC/raw/main/.github/QRIS.jpg" style="width:50%;height:50%;">
 </details>
+
 <hr>
 
 <h2>Ayo ikut gerakan IPv6 dengan gabung komunitas kecil di Telegram: https://t.me/IPv6_Indonesia</h2>
 
 <hr>
 
-Gunakan dengan perhatian khusus. Masih tahap riset. Tidak menanggung akibat seperti router meledak, internet menjadi LOS, alarm tidak mati, ledakan nuklir, dll
+<h2><i>Live long and prosper, Indonesian hobbynets!</i></h2>
+
+<h3>.--. . .-. / .- ... .--. . .-. .-</h3>
+<h3>.- -.. / .- ... - .-. .-</h3>
+
+<hr>
+
+Gunakan dengan perhatian khusus. Ini hanya dipergunakan untuk riset pribadi. Tidak menanggung akibat seperti router meledak, internet menjadi lambat, ONT LOS merah, alarm tidak mati, ledakan nuklir, perang dunia, dll.
