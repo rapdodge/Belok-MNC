@@ -3,8 +3,8 @@
 ||akamaihd.net^$dnstype=AAAA,dnsrewrite=NOERROR
 
 ### BStation ###
-/upos\-([s,h])z\-mirror([a-z0-9]+?).bilivideo\.com/$dnsrewrite=upos-hz-mirrorakam.akamaized.net
-/upos\-([s,h])z\-mirror([a-z0-9]+?).bilivideo\.com/$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
+#/upos\-([s,h])z\-mirror([a-z0-9]+?).bilivideo\.com/$dnsrewrite=upos-hz-mirrorakam.akamaized.net
+#/upos\-([s,h])z\-mirror([a-z0-9]+?).bilivideo\.com/$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
 
 ### BStation Old ###
 #||upos-sz-mirroralibstar1.bilivideo.com^$dnsrewrite=upos-bstar1-mirrorakam.akamaized.net
@@ -15,6 +15,7 @@
 
 ### Google Video (YouTube) ###
 ||googlevideo.com^$dnstype=AAAA,dnsrewrite=NOERROR
+||youtube.com^$dnstype=AAAA,dnsrewrite=NOERROR
 
 ### HoYoverse ###
 ||autopatchhk.yuanshen.com^$dnsrewrite=autopatchhk.yuanshen.com.akamaized.net
