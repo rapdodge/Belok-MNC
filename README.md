@@ -4,6 +4,11 @@
 
 Repositori ini ditujukan khusus untuk pelanggan MNC Play (AS17670). Segala bentuk penggunaan di luar MNC Play (AS17670), harus siap menerima konsekuensinya, seperti situs/download gagal dilakukan, dll.
 
+### Perlu diperhatikan
+Bahwa pelanggan MNC Play (AS17670) nantinya akan menggunakan IP dari IOH (AS4761), maka dari itu, kedepannya hanya blok IOH (AS4761) saja yang akan di update.
+
+#ThankYouMNCPlay
+
 <hr>
 
 Isinya buat belokin DNS biar hit cache MNC dan ada beberapa biar lebih maksimal lagi :)
