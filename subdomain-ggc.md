@@ -92,6 +92,32 @@
     rr8.sn-2a5thxqp5-jb3z.googlevideo.com. 110.50.80.83
 </details>
 
+### XL Axiata (AS24203)
+
+<hr>
+
+<details>
+    <summary>List</summary>
+    <!-- have to be followed by an empty line! -->
+
+	rr1.sn-xmjxajvh-wvbe.googlevideo.com. 140.213.209.76
+	rr1.sn-xmjxajvh-wvbl.googlevideo.com. 112.215.101.172
+	rr2.sn-xmjxajvh-wvbe.googlevideo.com. 140.213.209.77
+	rr2.sn-xmjxajvh-wvbl.googlevideo.com. 112.215.101.173
+	rr3.sn-xmjxajvh-wvbe.googlevideo.com. 140.213.209.78
+	rr3.sn-xmjxajvh-wvbl.googlevideo.com. 112.215.101.174
+	rr4.sn-xmjxajvh-wvbe.googlevideo.com. 140.213.209.79
+	rr4.sn-xmjxajvh-wvbl.googlevideo.com. 112.215.101.175
+	rr5.sn-xmjxajvh-wvbe.googlevideo.com. 140.213.209.80
+	rr5.sn-xmjxajvh-wvbl.googlevideo.com. 112.215.101.176
+	rr6.sn-xmjxajvh-wvbe.googlevideo.com. 140.213.209.81
+	rr6.sn-xmjxajvh-wvbl.googlevideo.com. 112.215.101.177
+	rr7.sn-xmjxajvh-wvbe.googlevideo.com. 140.213.209.82
+	rr7.sn-xmjxajvh-wvbl.googlevideo.com. 112.215.101.178
+	rr8.sn-xmjxajvh-wvbe.googlevideo.com. 140.213.209.83
+	rr8.sn-xmjxajvh-wvbl.googlevideo.com. 112.215.101.179
+</details>
+
 ### Cara Generate
 
 <hr>
