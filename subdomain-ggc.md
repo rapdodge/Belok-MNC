@@ -1,5 +1,47 @@
 # Subdomain Google Video Services
 
+### CBN (AS4787)
+
+<hr>
+
+<details>
+    <summary>List</summary>
+    <!-- have to be followed by an empty line! -->
+
+	rr1.sn-jcopn2-jb36.googlevideo.com. 202.158.60.140
+	rr1.sn-jcopn2-jb3l.googlevideo.com. 202.158.57.76
+	rr1.sn-jcopn2-jb3s.googlevideo.com. 202.158.59.12
+	rr1.sn-jcopn2-jb3z.googlevideo.com. 202.158.59.204
+	rr2.sn-jcopn2-jb36.googlevideo.com. 202.158.60.141
+	rr2.sn-jcopn2-jb3l.googlevideo.com. 202.158.57.77
+	rr2.sn-jcopn2-jb3s.googlevideo.com. 202.158.59.13
+	rr2.sn-jcopn2-jb3z.googlevideo.com. 202.158.59.205
+	rr3.sn-jcopn2-jb36.googlevideo.com. 202.158.60.142
+	rr3.sn-jcopn2-jb3l.googlevideo.com. 202.158.57.78
+	rr3.sn-jcopn2-jb3s.googlevideo.com. 202.158.59.14
+	rr3.sn-jcopn2-jb3z.googlevideo.com. 202.158.59.206
+	rr4.sn-jcopn2-jb36.googlevideo.com. 202.158.60.143
+	rr4.sn-jcopn2-jb3l.googlevideo.com. 202.158.57.79
+	rr4.sn-jcopn2-jb3s.googlevideo.com. 202.158.59.15
+	rr4.sn-jcopn2-jb3z.googlevideo.com. 202.158.59.207
+	rr5.sn-jcopn2-jb36.googlevideo.com. 202.158.60.144
+	rr5.sn-jcopn2-jb3l.googlevideo.com. 202.158.57.80
+	rr5.sn-jcopn2-jb3s.googlevideo.com. 202.158.59.16
+	rr5.sn-jcopn2-jb3z.googlevideo.com. 202.158.59.208
+	rr6.sn-jcopn2-jb36.googlevideo.com. 202.158.60.145
+	rr6.sn-jcopn2-jb3l.googlevideo.com. 202.158.57.81
+	rr6.sn-jcopn2-jb3s.googlevideo.com. 202.158.59.17
+	rr6.sn-jcopn2-jb3z.googlevideo.com. 202.158.59.209
+	rr7.sn-jcopn2-jb36.googlevideo.com. 202.158.60.146
+	rr7.sn-jcopn2-jb3l.googlevideo.com. 202.158.57.82
+	rr7.sn-jcopn2-jb3s.googlevideo.com. 202.158.59.18
+	rr7.sn-jcopn2-jb3z.googlevideo.com. 202.158.59.210
+	rr8.sn-jcopn2-jb36.googlevideo.com. 202.158.60.147
+	rr8.sn-jcopn2-jb3l.googlevideo.com. 202.158.57.83
+	rr8.sn-jcopn2-jb3s.googlevideo.com. 202.158.59.19
+	rr8.sn-jcopn2-jb3z.googlevideo.com. 202.158.59.211
+</details>
+
 ### IOH (AS4761)
 
 <hr>
