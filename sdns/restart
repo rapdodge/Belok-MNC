@@ -1,0 +1,17 @@
+#!/bin/bash
+systemctl stop smartdns
+rm /tmp/smartdns.cache*
+rm /tmp/smartdns.log*
+rm /tmp/smartdns-audit.log*
+touch /tmp/smartdns.cache
+touch /tmp/smartdns.log
+touch /tmp/smartdns-audit.log
+#chown root:root /tmp/smartdns.cache
+#chown root:root /tmp/smartdns.log
+#chown root:root /tmp/smartdns-audit.log
+#chmod 666 /tmp/smartdns.cache
+#chmod 666 /tmp/smartdns.log
+#chmod 666 /tmp/smartdns-audit.log
+#truncate -s 0 /tmp/*
+systemctl start smartdns
+systemctl restart smartdns

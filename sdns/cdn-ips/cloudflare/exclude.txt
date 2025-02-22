@@ -13,3 +13,8 @@ imap.hostinger.com
 smtp.hostinger.com
 help.stockbit.com
 chat.riotgames.com
+time.cloudflare.com
+gitlab.com
+riotgames.com
+myreadingmanga.info
+challenges.cloudflare.com
