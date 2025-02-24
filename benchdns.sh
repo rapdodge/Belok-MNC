@@ -1,70 +1,78 @@
 #!/bin/bash
 
-# Check if a DNS IP list file is provided as an argument
+# Cek apakah file IP DNS diberikan sebagai argumen
 if [ -z "$1" ]; then
-  echo "Usage: $0 ip.txt"
+  echo "Penggunaan: ./digspeed <file_ip.txt>"
   exit 1
 fi
 
-dns_file="$1"
+# File input yang berisi daftar IP DNS
+file_ip="$1"
 
-# Check if the DNS IP list file exists
-if [ ! -f "$dns_file" ]; then
-  echo "Error: File '$dns_file' not found."
-  exit 1
-fi
+# Domain yang akan di-dig
+domain="www.facebook.com"
 
-domain="autopatchhk.yuanshen.com.akamaized.net"  # Domain to resolve
+# File temporary untuk menyimpan hasil ping dan DNS Server
+temp_file="hasil_ping_temp.txt"
+> "$temp_file" # Kosongkan file jika sudah ada
 
-declare -A latencies
+# Loop melalui setiap IP DNS dari file
+while IFS= read -r dns_server <&3; do
+  echo "Memproses DNS Server: $dns_server"
 
-while IFS= read -r dns_ip; do
-  dns_ip=$(echo "$dns_ip" | tr -d '[:space:]') # Remove whitespace
-  if [[ -z "$dns_ip" || "$dns_ip" == "#"* ]]; then # Skip empty/comment lines
-      continue
-  fi
+  # Proses dig
+  dig_output=$(/root/tools/belok-mnc/q --timeout=3s +short A "$domain" @"$dns_server" 2>/dev/null)
 
-  resolved_ip=$(dig +short A "$domain" @"$dns_ip" | grep -v '\.$' | head -n 1)
+  # Ambil IP pertama dari hasil dig
+  ip_target=$(echo "$dig_output" | grep -v '\.$' | head -n 1)
 
-  if [[ -z "$resolved_ip" ]]; then
-    echo "Warning: dig to $dns_ip failed for $domain. Skipping."
-    continue
-  fi
+  # Cek apakah dig menghasilkan IP
+  if [ -z "$ip_target" ]; then
+    echo "Tidak ada respon IP dari dig untuk DNS Server: $dns_server"
+    rtt="N/A"
+  else
+    echo "IP Target dari dig: $ip_target"
 
-  total_latency=0
-  num_pings=5
+    # Proses ping ke IP pertama
+    ping_output=$(ping -c 1 "$ip_target" 2>/dev/null)
+#    echo "=== OUTPUT PING ==="
+#    echo "$ping_output"
+#    echo "=== END OUTPUT PING ==="
 
-  for i in $(seq 1 $num_pings); do
-    ping -c1 -W1 -q "$resolved_ip" > /dev/null 2>&1
+    # Ekstrak nilai rtt dari hasil ping (ambil nilai min)
+    rtt=$(echo "$ping_output" | grep "rtt min/avg/max" | awk -F'=' '{print $2}' | awk -F'/' '{print $1}' | tr -d ' ')
 
-    latency=$(ping -fc5 -W1 "$resolved_ip" | awk '/rtt min\/avg\/max\/mdev/ {print $4}' | cut -d'/' -f2)
-
-    if [[ -z "$latency" ]]; then
-      echo "Warning: Ping to $resolved_ip failed. Skipping."
-      latency=999999 # Assign large latency for failed pings
-      break # Exit the ping loop
+    # Cek apakah ping berhasil mendapatkan rtt
+    if [ -z "$rtt" ]; then
+      echo "Tidak dapat memperoleh nilai RTT dari ping ke $ip_target menggunakan DNS Server $dns_server"
+      rtt="N/A"
+    else
+      echo "RTT: $rtt ms"
     fi
+  fi
 
-    total_latency=$(bc <<<"$total_latency + $latency")
+  # Simpan hasil ke file temporary dengan format: RTT DNS_SERVER
+  echo "$rtt $dns_server" >> "$temp_file"
 
-  done
+done 3< "$file_ip"
 
-  average_latency=$(bc <<<"scale=3; $total_latency / $num_pings")
+# Lakukan sorting hasil ping berdasarkan RTT dari terendah ke tertinggi
+echo "----- Hasil Ping yang Diurutkan (RTT terendah ke tertinggi) -----"
+sort -n "$temp_file" | while IFS= read -r sorted_line; do
+  sorted_rtt=$(echo "$sorted_line" | awk '{print $1}')
+  sorted_dns_server=$(echo "$sorted_line" | awk '{$1=""; print $0}' | sed 's/^ //')
 
-  latencies["$dns_ip"]="$average_latency"
-
-done < "$dns_file"
-
-sorted_ips=()
-for ip in "${!latencies[@]}"; do
-  sorted_ips+=("${latencies[$ip]}:$ip")
+  # Tampilkan hasil yang sudah diurutkan
+  if [ "$sorted_rtt" = "N/A" ]; then
+    echo "DNS Server: $sorted_dns_server, RTT: $sorted_rtt"
+  else
+    echo "DNS Server: $sorted_dns_server, RTT: $sorted_rtt ms"
+  fi
 done
-sorted_ips=($(sort -n <<<"${sorted_ips[*]}"))
 
-echo "DNS Latency Test Results (Sorted by Latency - Average of $num_pings pings to resolved IP):"
-echo "---------------------------------------------------------------------------------------"
-for result in "${sorted_ips[@]}"; do
-  latency="${result%%:*}"
-  ip="${result#*:}"
-  echo "DNS Server: $ip, Latency: $latency ms"
-done
+# Bersihkan file temporary
+rm "$temp_file"
+
+echo "----------------------------------------------------"
+
+exit 0
