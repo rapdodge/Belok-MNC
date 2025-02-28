@@ -134,6 +134,64 @@
     rr8.sn-2a5thxqp5-jb3z.googlevideo.com. 110.50.80.83
 </details>
 
+### Tri (AS45727)
+
+<hr>
+
+<details>
+    <summary>List</summary>
+    <!-- have to be followed by an empty line! -->
+
+    rr1.sn-uigxxi0ujipnvo-jb36.googlevideo.com. 116.206.8.172
+    rr1.sn-uigxxi0ujipnvo-jb3d.googlevideo.com. 116.206.13.140
+    rr1.sn-uigxxi0ujipnvo-jb3k.googlevideo.com. 116.206.28.204
+    rr1.sn-uigxxi0ujipnvo-jb3r.googlevideo.com. 116.206.9.204
+    rr1.sn-uigxxi0ujipnvo-jb3s.googlevideo.com. 116.206.28.140
+    rr1.sn-uigxxi0ujipnvo-jb3z.googlevideo.com. 116.206.29.140
+    rr2.sn-uigxxi0ujipnvo-jb36.googlevideo.com. 116.206.8.173
+    rr2.sn-uigxxi0ujipnvo-jb3d.googlevideo.com. 116.206.13.141
+    rr2.sn-uigxxi0ujipnvo-jb3k.googlevideo.com. 116.206.28.205
+    rr2.sn-uigxxi0ujipnvo-jb3r.googlevideo.com. 116.206.9.205
+    rr2.sn-uigxxi0ujipnvo-jb3s.googlevideo.com. 116.206.28.141
+    rr2.sn-uigxxi0ujipnvo-jb3z.googlevideo.com. 116.206.29.141
+    rr3.sn-uigxxi0ujipnvo-jb36.googlevideo.com. 116.206.8.174
+    rr3.sn-uigxxi0ujipnvo-jb3d.googlevideo.com. 116.206.13.142
+    rr3.sn-uigxxi0ujipnvo-jb3k.googlevideo.com. 116.206.28.206
+    rr3.sn-uigxxi0ujipnvo-jb3r.googlevideo.com. 116.206.9.206
+    rr3.sn-uigxxi0ujipnvo-jb3s.googlevideo.com. 116.206.28.142
+    rr3.sn-uigxxi0ujipnvo-jb3z.googlevideo.com. 116.206.29.142
+    rr4.sn-uigxxi0ujipnvo-jb36.googlevideo.com. 116.206.8.175
+    rr4.sn-uigxxi0ujipnvo-jb3d.googlevideo.com. 116.206.13.143
+    rr4.sn-uigxxi0ujipnvo-jb3k.googlevideo.com. 116.206.28.207
+    rr4.sn-uigxxi0ujipnvo-jb3r.googlevideo.com. 116.206.9.207
+    rr4.sn-uigxxi0ujipnvo-jb3s.googlevideo.com. 116.206.28.143
+    rr4.sn-uigxxi0ujipnvo-jb3z.googlevideo.com. 116.206.29.143
+    rr5.sn-uigxxi0ujipnvo-jb36.googlevideo.com. 116.206.8.176
+    rr5.sn-uigxxi0ujipnvo-jb3d.googlevideo.com. 116.206.13.144
+    rr5.sn-uigxxi0ujipnvo-jb3k.googlevideo.com. 116.206.28.208
+    rr5.sn-uigxxi0ujipnvo-jb3r.googlevideo.com. 116.206.9.208
+    rr5.sn-uigxxi0ujipnvo-jb3s.googlevideo.com. 116.206.28.144
+    rr5.sn-uigxxi0ujipnvo-jb3z.googlevideo.com. 116.206.29.144
+    rr6.sn-uigxxi0ujipnvo-jb36.googlevideo.com. 116.206.8.177
+    rr6.sn-uigxxi0ujipnvo-jb3d.googlevideo.com. 116.206.13.145
+    rr6.sn-uigxxi0ujipnvo-jb3k.googlevideo.com. 116.206.28.209
+    rr6.sn-uigxxi0ujipnvo-jb3r.googlevideo.com. 116.206.9.209
+    rr6.sn-uigxxi0ujipnvo-jb3s.googlevideo.com. 116.206.28.145
+    rr6.sn-uigxxi0ujipnvo-jb3z.googlevideo.com. 116.206.29.145
+    rr7.sn-uigxxi0ujipnvo-jb36.googlevideo.com. 116.206.8.178
+    rr7.sn-uigxxi0ujipnvo-jb3d.googlevideo.com. 116.206.13.146
+    rr7.sn-uigxxi0ujipnvo-jb3k.googlevideo.com. 116.206.28.210
+    rr7.sn-uigxxi0ujipnvo-jb3r.googlevideo.com. 116.206.9.210
+    rr7.sn-uigxxi0ujipnvo-jb3s.googlevideo.com. 116.206.28.146
+    rr7.sn-uigxxi0ujipnvo-jb3z.googlevideo.com. 116.206.29.146
+    rr8.sn-uigxxi0ujipnvo-jb36.googlevideo.com. 116.206.8.179
+    rr8.sn-uigxxi0ujipnvo-jb3d.googlevideo.com. 116.206.13.147
+    rr8.sn-uigxxi0ujipnvo-jb3k.googlevideo.com. 116.206.28.211
+    rr8.sn-uigxxi0ujipnvo-jb3r.googlevideo.com. 116.206.9.211
+    rr8.sn-uigxxi0ujipnvo-jb3s.googlevideo.com. 116.206.28.147
+    rr8.sn-uigxxi0ujipnvo-jb3z.googlevideo.com. 116.206.29.147
+</details>
+
 ### XL Axiata (AS24203)
 
 <hr>
