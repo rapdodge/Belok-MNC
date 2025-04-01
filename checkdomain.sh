@@ -11,7 +11,9 @@ ip_address="$2"
 url="$3"
 
 # Construct the curl command
-curl --resolve "$domain:443:$ip_address" "$url"
+echo $ip_address
+curl --resolve "$domain:443:$ip_address" "$url" 2>/dev/null -I | head -n 1 | cut -d$' ' -f2
+echo
 
 # Exit with success
 exit 0
