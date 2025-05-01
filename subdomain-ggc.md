@@ -42,6 +42,58 @@
 	rr8.sn-jcopn2-jb3z.googlevideo.com. 202.158.59.211
 </details>
 
+### FiberStar (AS136106)
+
+<hr>
+
+<details>
+    <summary>List</summary>
+    <!-- have to be followed by an empty line! -->
+
+	rr1.sn-4pcxgnu5g-jb3e.googlevideo.com. 103.87.185.216
+	rr2.sn-4pcxgnu5g-jb3e.googlevideo.com. 103.87.185.217
+	rr3.sn-4pcxgnu5g-jb3e.googlevideo.com. 103.87.185.218
+	rr4.sn-4pcxgnu5g-jb3e.googlevideo.com. 103.87.185.219
+	rr5.sn-4pcxgnu5g-jb3e.googlevideo.com.
+	rr6.sn-4pcxgnu5g-jb3e.googlevideo.com.
+	rr7.sn-4pcxgnu5g-jb3e.googlevideo.com.
+	rr8.sn-4pcxgnu5g-jb3e.googlevideo.com.
+</details>
+
+### PGAS (AS56258)
+
+<hr>
+
+<details>
+    <summary>List</summary>
+    <!-- have to be followed by an empty line! -->
+
+	rr1.sn-2b5njvh-jb3l.googlevideo.com. 103.243.51.204
+	rr1.sn-2b5njvh-jb3s.googlevideo.com. 103.243.51.172
+	rr1.sn-2b5njvh-jb3z.googlevideo.com. 103.28.94.204
+	rr2.sn-2b5njvh-jb3l.googlevideo.com. 103.243.51.205
+	rr2.sn-2b5njvh-jb3s.googlevideo.com. 103.243.51.173
+	rr2.sn-2b5njvh-jb3z.googlevideo.com. 103.28.94.205
+	rr3.sn-2b5njvh-jb3l.googlevideo.com. 103.243.51.206
+	rr3.sn-2b5njvh-jb3s.googlevideo.com. 103.243.51.174
+	rr3.sn-2b5njvh-jb3z.googlevideo.com. 103.28.94.206
+	rr4.sn-2b5njvh-jb3l.googlevideo.com. 103.243.51.207
+	rr4.sn-2b5njvh-jb3s.googlevideo.com. 103.243.51.175
+	rr4.sn-2b5njvh-jb3z.googlevideo.com. 103.28.94.207
+	rr5.sn-2b5njvh-jb3l.googlevideo.com. 103.243.51.208
+	rr5.sn-2b5njvh-jb3s.googlevideo.com. 103.243.51.176
+	rr5.sn-2b5njvh-jb3z.googlevideo.com. 103.28.94.208
+	rr6.sn-2b5njvh-jb3l.googlevideo.com. 103.243.51.209
+	rr6.sn-2b5njvh-jb3s.googlevideo.com. 103.243.51.177
+	rr6.sn-2b5njvh-jb3z.googlevideo.com. 103.28.94.209
+	rr7.sn-2b5njvh-jb3l.googlevideo.com. 103.243.51.210
+	rr7.sn-2b5njvh-jb3s.googlevideo.com. 103.243.51.178
+	rr7.sn-2b5njvh-jb3z.googlevideo.com. 103.28.94.210
+	rr8.sn-2b5njvh-jb3l.googlevideo.com. 103.243.51.211
+	rr8.sn-2b5njvh-jb3s.googlevideo.com. 103.243.51.179
+	rr8.sn-2b5njvh-jb3z.googlevideo.com. 103.28.94.211
+</details>
+
 ### IOH (AS4761)
 
 <hr>
